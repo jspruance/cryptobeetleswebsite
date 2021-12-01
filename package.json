@@ -1,0 +1,23 @@
+{
+  "name": "cryptobeetleswebsite",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "compileNFTContract": "solcjs --abi --include-path node_modules/ --base-path . ethereum/contracts/CryptoBeetles.sol --output-dir ethereum/build"
+  },
+  "dependencies": {
+    "next": "12.0.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "solc": "^0.8.10",
+    "web3": "^1.6.0"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.4",
+    "@openzeppelin/contracts": "^4.3.2"
+  }
+}

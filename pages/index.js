@@ -49,7 +49,7 @@ export default function Home() {
                 const nftName = nft.name
                 const imageUrl = `/nftimages/release_${nftrelease.release}/${nftName}.gif`
                 console.log(imageUrl)
-                return <NftDisplay key={name} name={nftName} imageurl={imageUrl} link={nft.link} />
+                return <NftDisplay key={nftName} name={nftName} imageurl={imageUrl} link={nft.link} />
               })
             })
           }

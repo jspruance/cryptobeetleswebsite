@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default () => {
+const Footer = () => {
   return (
     <>
       <footer>
@@ -30,3 +30,5 @@ export default () => {
     </>
   )
 }
+
+export default Footer

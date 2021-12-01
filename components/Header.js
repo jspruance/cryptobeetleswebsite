@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-export default props => {
+const Header = props => {
   return (
     <>
       <Link href="/">
@@ -40,3 +40,5 @@ export default props => {
     </>
   )
 }
+
+export default Header

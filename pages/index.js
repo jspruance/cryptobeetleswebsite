@@ -54,10 +54,20 @@ export default function Home() {
             })
           }
         </div>
-        <p className="contact-link"><a href="mailto:info@cryptobeetlesnft.com">info@cryptobeetlesnft.com</a></p>
+        <p className="contact-link">
+          <a href="mailto:info@cryptobeetlesnft.com">info@cryptobeetlesnft.com</a>
+        </p>
         <div className="social-media-links">
+          <Link href="#">
+            <a target="_blank">Instagram</a>
+          </Link>
+          &nbsp;|&nbsp;
           <Link href="https://twitter.com/BeetlesNft">
             <a target="_blank">Twitter</a>
+          </Link>
+          &nbsp;|&nbsp;
+          <Link href="https://etherscan.io/address/0xFB2Ce8f578D11A4d6cBaE57151BB0cc2E32a3562">
+            <a target="_blank">Etherscan</a>
           </Link>
         </div>
       </main>

@@ -17,8 +17,8 @@ export default function Home() {
         <meta property="og:type" content="website"></meta>
         <link rel="icon" href="/cryptobeetles_favicon.ico" />
         <link rel="stylesheet" href="/fonts/fonts.css"></link>
-        {/* Global site tag (gtag.js) - Google Analytics 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-2EF9PKF797"></script>
+        {/* Global site tag (gtag.js) - Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-56EGRFZ924"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -26,10 +26,10 @@ export default function Home() {
               function gtag(){dataLayer.push(arguments)}
               gtag('js', new Date())
 
-              gtag('config', 'G-2EF9PKF797')
+              gtag('config', 'G-56EGRFZ924')
             `,
           }}
-        />*/}
+        />
       </Head>
 
       <main>

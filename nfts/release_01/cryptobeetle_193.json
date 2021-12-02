@@ -1,0 +1,49 @@
+{
+    "name" : "Crypto Beetle 193",
+    "description": "Crypto Beetle",
+    "image" : "https://gateway.pinata.cloud/ipfs/Qmba7x4ReaX2GRfbrfsM8Fmab6F1rGD5KPrHjSQmNqbout",
+    "attributes": [
+        {
+            "trait_type": "Generation",
+            "value": 1
+        },
+        {
+            "trait_type": "Dots",
+            "value": 4,
+            "max_value": 8
+        },
+        {
+            "trait_type": "Color",
+            "value": "magenta"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "large"
+        },
+        {
+            "trait_type": "Antenna",
+            "value": "large"
+        },
+        {
+            "trait_type": "Front legs",
+            "value": "large"
+        },
+        {
+            "trait_type": "Eye orientation",
+            "value": "stright ahead"
+        },
+        {
+            "trait_type": "Eye color",
+            "value": "aqua"
+        },
+        {
+            "trait_type": "Background",
+            "value": "space"
+        },
+        {
+            "trait_type": "Nebula",
+            "value": 0,
+            "maxValue": 10
+        }
+    ]
+}

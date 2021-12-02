@@ -11,7 +11,7 @@ const Header = props => {
       </Link>
       {
         !props.minimal && <p className="description">
-          A botique collection of hand-made ERC-721 NFTs on the Ethereum blockchain.
+          A botique collection of ERC-721 NFTs on the Ethereum blockchain.
         </p>
       }
     <style jsx>{`

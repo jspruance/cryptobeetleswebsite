@@ -34,10 +34,10 @@ export default function Home() {
 
       <main>
         <Header />
-        <p className="opensea-link">View collection on&nbsp; 
+        <p className="opensea-link"> 
           <Link href="https://opensea.io/collection/cryptobeetles-nft">
             <a target="_blank">
-              OpenSea
+              View collection on OpenSea
             </a>
           </Link>
           </p>

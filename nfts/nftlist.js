@@ -9,6 +9,7 @@ const nftlist = [
       },
       {
         name: 'cryptobeetle_039',
+        link: 'https://opensea.io/assets/0xfb2ce8f578d11a4d6cbae57151bb0cc2e32a3562/10',
         order: '2'
       },
       {

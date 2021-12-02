@@ -55,6 +55,11 @@ export default function Home() {
           }
         </div>
         <p className="contact-link"><a href="mailto:info@cryptobeetlesnft.com">info@cryptobeetlesnft.com</a></p>
+        <div className="social-media-links">
+          <Link href="https://twitter.com/BeetlesNft">
+            <a target="_blank">Twitter</a>
+          </Link>
+        </div>
       </main>
 
       <Footer />
@@ -104,6 +109,19 @@ export default function Home() {
         }
 
         .contact-link a:hover {
+          text-decoration: none;
+        }
+
+        .social-media-links {
+          margin-top: 2em;
+        }
+
+        .social-media-links a {
+          font-size: 0.7em;
+          text-decoration: underline;
+        }
+
+        .social-media-links a:hover {
           text-decoration: none;
         }
 

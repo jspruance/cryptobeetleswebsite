@@ -60,15 +60,15 @@ const nftlist = [
         order: '9'
       },
       {
-        name: 'cryptobeetle_187',
-        extension: 'gif',
-        link: 'https://opensea.io/assets/0xfb2ce8f578d11a4d6cbae57151bb0cc2e32a3562/8',
-        order: '10'
-      },
-      {
         name: 'cryptobeetle_185',
         extension: 'gif',
         link: 'https://opensea.io/assets/0xfb2ce8f578d11a4d6cbae57151bb0cc2e32a3562/11',
+        order: '10'
+      },
+      {
+        name: 'cryptobeetle_187',
+        extension: 'gif',
+        link: 'https://opensea.io/assets/0xfb2ce8f578d11a4d6cbae57151bb0cc2e32a3562/8',
         order: '11'
       },
       {

@@ -24,9 +24,9 @@ const nftlist = [
         order: '3'
       },
       {
-        name: 'cryptobeetle_171',
-        extension: 'gif',
-        link: 'https://opensea.io/assets/0xfb2ce8f578d11a4d6cbae57151bb0cc2e32a3562/7',
+        name: 'cryptobeetle_212',
+        extension: 'png',
+        link: 'https://opensea.io/collection/cryptobeetles-nft',
         order: '4'
       },
       {
@@ -90,10 +90,16 @@ const nftlist = [
         order: '14'
       },
       {
+        name: 'cryptobeetle_171',
+        extension: 'gif',
+        link: 'https://opensea.io/assets/0xfb2ce8f578d11a4d6cbae57151bb0cc2e32a3562/7',
+        order: '15'
+      },
+      {
         name: 'cryptobeetle_116',
         extension: 'gif',
         link: 'https://opensea.io/assets/0xfb2ce8f578d11a4d6cbae57151bb0cc2e32a3562/6',
-        order: '15'
+        order: '16'
       }
     ]
   }

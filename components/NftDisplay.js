@@ -1,13 +1,14 @@
 import Link from 'next/link'
 
 const NftDisplay = props => {
-  let { name, link, imageurl } = props
+  let { name, link, imageurl, alt } = props
+  const altTag = alt ? alt : name
   link = link ? link : 'https://opensea.io/collection/cryptobeetles-nft'
   const displayName = `crypto beetle ${name.substring(name.length - 3, name.length)}`
   return <Link href={link} key={name}>
       <a target="_blank">
         <div className="nft-card">
-          <img src={imageurl} alt={name} />
+          <img src={imageurl} alt={altTag} />
           <p>{displayName}</p>
           <style jsx>{`
             .nft-card {

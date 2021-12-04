@@ -5,12 +5,14 @@ const nftlist = [
       {
         name: 'cryptobeetle_206',
         extension: 'gif',
+        alt: 'HODL yo Crypto beetle',
         link: 'https://opensea.io/assets/0xfb2ce8f578d11a4d6cbae57151bb0cc2e32a3562/18',
         order: '1'
       },
       {
         name: 'cryptobeetle_207',
         extension: 'png',
+        alt: 'Diamond Hands Hero beetle',
         link: 'https://opensea.io/assets/0xfb2ce8f578d11a4d6cbae57151bb0cc2e32a3562/19',
         order: '2'
       },

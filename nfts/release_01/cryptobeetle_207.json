@@ -1,0 +1,52 @@
+{
+    "name" : "Crypto Beetle 207",
+    "description": "Special edition 'Diamond hands hero' beetle",
+    "image" : "https://gateway.pinata.cloud/ipfs/QmcE9V2aCaaZQPbzU4QPtbQ1UUhW1RckmogcaNjN7z8fcf",
+    "attributes": [
+        {
+            "trait_type": "Generation",
+            "value": 1
+        },
+        {
+            "trait_type": "Dots",
+            "value": 0,
+            "max_value": 8
+        },
+        {
+            "trait_type": "Color",
+            "value": "white"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "large"
+        },
+        {
+            "trait_type": "Antenna",
+            "value": "large"
+        },
+        {
+            "trait_type": "Front legs",
+            "value": "large"
+        },
+        {
+            "trait_type": "Eye orientation",
+            "value": "indeterminate"
+        },
+        {
+            "trait_type": "Eye color",
+            "value": "magenta"
+        },
+        {
+            "trait_type": "Background",
+            "value": "space"
+        },
+        {
+            "trait_type": "sunglasses",
+            "value": "no"
+        },
+        {
+            "trait_type": "Diamond hands",
+            "value": "yes"
+        }
+    ]
+}

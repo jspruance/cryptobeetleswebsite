@@ -42,13 +42,14 @@ export default function Home() {
           </Link>
           </p>
         <div className="nft-display-container">
-          
           {
             nftlist.map(nftrelease => {
+              nftrelease.nfts.sort(function (a, b) {
+                return a.order - b.order
+              })
               return nftrelease.nfts.map(nft => {
                 const nftName = nft.name
                 const imageUrl = `/nftimages/release_${nftrelease.release}/${nftName}.gif`
-                console.log(imageUrl)
                 return <NftDisplay key={nftName} name={nftName} imageurl={imageUrl} link={nft.link} />
               })
             })

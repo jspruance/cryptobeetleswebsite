@@ -70,6 +70,10 @@ export default function Home() {
           <Link href="https://etherscan.io/address/0xFB2Ce8f578D11A4d6cBaE57151BB0cc2E32a3562">
             <a target="_blank">Etherscan</a>
           </Link>
+          &nbsp;|&nbsp;
+          <Link href="https://www.ichctoken.org/">
+            <a target="_blank">I Can Has Cheezburger Token (ICHC)</a>
+          </Link>
         </div>
       </main>
 

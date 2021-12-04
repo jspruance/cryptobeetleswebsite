@@ -49,7 +49,7 @@ export default function Home() {
               })
               return nftrelease.nfts.map(nft => {
                 const nftName = nft.name
-                const imageUrl = `/nftimages/release_${nftrelease.release}/${nftName}.gif`
+                const imageUrl = `/nftimages/release_${nftrelease.release}/${nftName}.${nft.extension}`
                 return <NftDisplay key={nftName} name={nftName} imageurl={imageUrl} link={nft.link} />
               })
             })

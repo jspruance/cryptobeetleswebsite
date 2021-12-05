@@ -17,10 +17,9 @@ const nftlist = [
         order: '2'
       },
       {
-        name: 'cryptobeetle_208',
+        name: 'cryptobeetle_215',
         extension: 'png',
-        alt: 'Block Chain Block Party beetle',
-        link: 'https://opensea.io/assets/0xfb2ce8f578d11a4d6cbae57151bb0cc2e32a3562/20',
+        link: '',
         order: '3'
       },
       {
@@ -30,15 +29,16 @@ const nftlist = [
         order: '4'
       },
       {
-        name: 'cryptobeetle_212',
+        name: 'cryptobeetle_210',
         extension: 'png',
         link: '',
         order: '5'
       },
       {
-        name: 'cryptobeetle_215',
+        name: 'cryptobeetle_208',
         extension: 'png',
-        link: '',
+        alt: 'Block Chain Block Party beetle',
+        link: 'https://opensea.io/assets/0xfb2ce8f578d11a4d6cbae57151bb0cc2e32a3562/20',
         order: '6'
       },
       {

@@ -26,7 +26,7 @@ const nftlist = [
       {
         name: 'cryptobeetle_213',
         extension: 'png',
-        link: 'https://opensea.io/collection/cryptobeetles-nft',
+        link: 'https://opensea.io/assets/0xfb2ce8f578d11a4d6cbae57151bb0cc2e32a3562/21',
         order: '4'
       },
       {

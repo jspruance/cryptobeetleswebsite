@@ -1,0 +1,57 @@
+{
+    "name" : "Crypto Beetle 213",
+    "description": "Special edition 'Diamond sword & diamond helmet' beetle",
+    "image" : "https://gateway.pinata.cloud/ipfs/Qmc3h4Ge8p7EU57L2PKt4qEyQCwxhuC5PWBLuxSn74QcKG",
+    "attributes": [
+        {
+            "trait_type": "Generation",
+            "value": 1
+        },
+        {
+            "trait_type": "Dots",
+            "value": 0,
+            "max_value": 8
+        },
+        {
+            "trait_type": "Color",
+            "value": "white"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "large"
+        },
+        {
+            "trait_type": "Eye color",
+            "value": "red"
+        },
+        {
+            "trait_type": "Antenna",
+            "value": "large"
+        },
+        {
+            "trait_type": "Front legs",
+            "value": "large"
+        },
+        {
+            "trait_type": "Eye orientation",
+            "value": "straight ahead"
+        },
+        {
+            "trait_type": "Background",
+            "value": "space"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "yes"
+        },
+        {
+            "trait_type": "sword",
+            "value": "yes"
+        },
+        {
+            "trait_type": "Nebula",
+            "value": 6,
+            "maxValue": 10
+        }
+    ]
+}

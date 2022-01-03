@@ -3,7 +3,6 @@ import web3 from '../ethereum/web3'
 import nftContract from '../ethereum/nft'
 import Header from '../components/Header'
 import Head from 'next/head'
-import Link from 'next/link'
 
 export default function Mint() {
   const [mintError, setMintError] = useState('')
@@ -14,7 +13,7 @@ export default function Mint() {
     setMintSuccess('')
     let resp
     try {
-      const mintUrl = ''
+      const mintUrl = 'https://gateway.pinata.cloud/ipfs/QmS6C7HikeRRarAyNJzbTZkUA1WawxzVB76yjmV77x5qRT'
       const accounts = await web3.eth.getAccounts()
       resp = await nftContract.methods.mint(mintUrl).send({
         from: accounts[0],

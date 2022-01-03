@@ -11,7 +11,6 @@ export default function Mint() {
 
   const urlUpdateHandler = (event) => {
     setNftUrl((event.target.value))
-    console.log(`nftUrl :: ${nftUrl}`)
   }
 
   const mintNFTHandler = async() => {
@@ -49,15 +48,17 @@ export default function Mint() {
           <div className="mint-container">
             <div className="address-entry">
               <div className="nes-field">
-                <label htmlFor="name_field" className="input-label">Enter NFT url:</label>
-                <input 
+                <label htmlFor="url_field" className="input-label">Enter NFT url:</label>
+                <input
+                  data-testid="url-input"
                   type="text" 
-                  id="name_field" 
-                  className="nes-input faucet-txt-input" 
+                  id="url_field" 
+                  className="nes-input mint-txt-input" 
                   onChange={urlUpdateHandler}
                 />
               </div>
-              <button 
+              <button
+                data-testid="mint-nft"
                 onClick={mintNFTHandler} 
                 type="button" 
                 className="nes-btn is-primary mint-btn">

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import web3 from '../ethereum/web3'
 import nftContract from '../ethereum/nft'
+import Header from '../components/Header'
 import Head from 'next/head'
 import Link from 'next/link'
 
@@ -36,6 +37,7 @@ export default function Mint() {
       </Head>
 
       <main>
+        <Header />
         <div className="container">
           <h2 className="pink">Mint Crypto Beetle</h2>
 

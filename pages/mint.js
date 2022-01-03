@@ -210,9 +210,9 @@ export default function Mint() {
         body {
           padding: 0;
           margin: 0;
-          color: aqua;
-          font-family: Times,"Times New Roman", serif;
-          cursor: default !important;
+          color: black;
+          font-family: "press_start_2pregular", Times,"Times New Roman", serif;
+          cursor: pointer !important;
         }
 
         a, button {

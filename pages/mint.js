@@ -39,10 +39,7 @@ export default function Mint() {
       <main>
         <Header />
         <div className="container">
-          <h2 className="pink">Mint Crypto Beetle</h2>
-
           <div className="mint-container">
-            
             <div className="address-entry">
               <button 
                 onClick={mintNFTHandler} 

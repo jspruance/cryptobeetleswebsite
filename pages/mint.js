@@ -7,22 +7,30 @@ import Head from 'next/head'
 export default function Mint() {
   const [mintError, setMintError] = useState('')
   const [mintSuccess, setMintSuccess] = useState('')
-  
+  const [nftUrl, setNftUrl] = useState('')
+
+  const urlUpdateHandler = (event) => {
+    setNftUrl((event.target.value))
+    console.log(`nftUrl :: ${nftUrl}`)
+  }
+
   const mintNFTHandler = async() => {
     setMintError('')
     setMintSuccess('')
+    if (!nftUrl || !nftUrl.includes('https://gateway.pinata.cloud/ipfs/')) {
+      return setMintError(`Minting error: Invalid NFT url`)
+    }
     let resp
     try {
-      const mintUrl = 'https://gateway.pinata.cloud/ipfs/QmS6C7HikeRRarAyNJzbTZkUA1WawxzVB76yjmV77x5qRT'
       const accounts = await web3.eth.getAccounts()
-      resp = await nftContract.methods.mint(mintUrl).send({
+      resp = await nftContract.methods.mint(nftUrl).send({
         from: accounts[0],
         gas: 300000,
         gasPrice: null,
       })
-      setMintSuccess(`NFT succesfully minted! :::: ${JSON.stringify(resp)}`)
+      setMintSuccess(`NFT succesfully minted! ${JSON.stringify(resp)}`)
     } catch(err) {
-      setMintError(`Minting error :::: ${err.message}`)
+      setMintError(`Minting error: ${err.message}`)
     }
   }
 
@@ -40,6 +48,15 @@ export default function Mint() {
         <div className="container">
           <div className="mint-container">
             <div className="address-entry">
+              <div className="nes-field">
+                <label htmlFor="name_field" className="input-label">Enter NFT url:</label>
+                <input 
+                  type="text" 
+                  id="name_field" 
+                  className="nes-input faucet-txt-input" 
+                  onChange={urlUpdateHandler}
+                />
+              </div>
               <button 
                 onClick={mintNFTHandler} 
                 type="button" 

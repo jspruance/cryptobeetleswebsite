@@ -1,0 +1,53 @@
+{
+    "name" : "Crypto Beetle 217",
+    "description": "Crypto Beetle with beer and horns",
+    "image" : "https://gateway.pinata.cloud/ipfs/QmRDqYEEjrxqKEr89xREhFmwzYSeZBQG1Z7c4dF8C7mkYX",
+    "attributes": [
+        {
+            "trait_type": "Generation",
+            "value": 1
+        },
+        {
+            "trait_type": "Dots",
+            "value": 4,
+            "max_value": 8
+        },
+        {
+            "trait_type": "Color",
+            "value": "red"
+        },
+        {
+            "trait_type": "Front legs",
+            "value": "large"
+        },
+        {
+            "trait_type": "Eye orientation",
+            "value": "straight ahead"
+        },
+        {
+            "trait_type": "Background",
+            "value": "space"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "yes"
+        },
+        {
+            "trait_type": "horns",
+            "value": "yes"
+        },
+        {
+            "trait_type": "beer",
+            "value": "yes"
+        },
+        {
+            "trait_type": "sunglasses",
+            "value": "yes"
+        },
+        {
+            "trait_type": "Nebula",
+            "value": 0,
+            "maxValue": 10
+        }
+    ]
+}

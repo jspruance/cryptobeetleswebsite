@@ -39,15 +39,13 @@ export default function Mint() {
         <div className="container">
           <h2 className="pink">Mint Crypto Beetle</h2>
 
-          <div className="faucet-container">
+          <div className="mint-container">
             
             <div className="address-entry">
-              <img src="/faucet_med.png" alt="ICHC Token Faucet" />
-              
               <button 
                 onClick={mintNFTHandler} 
                 type="button" 
-                className="nes-btn is-primary faucet-btn">
+                className="nes-btn is-primary mint-btn">
                   Mint Crypto Beetle
               </button>
             </div>
@@ -93,7 +91,7 @@ export default function Mint() {
           align-items: center;
         }
 
-        .faucet-container {
+        .mint-container {
           display: flex;
           flex-direction: row;
           justify-content: flex-start;
@@ -114,7 +112,7 @@ export default function Mint() {
           font-family: "press_start_2pregular", Times,"Times New Roman", serif;
         }
 
-        .faucet-txt-input {
+        .mint-txt-input {
           width: 700px;
           font-size: .9em;
           font-family: "press_start_2pregular", Times,"Times New Roman", serif;
@@ -151,7 +149,7 @@ export default function Mint() {
           background-color: #FF007A;
         }
 
-        .faucet-btn {
+        .mint-btn {
           margin-left: 1em;
           margin-top: 2em;
           margin-bottom: 1em;
@@ -160,11 +158,11 @@ export default function Mint() {
           color: black;
         }
 
-        .faucet-btn span {
+        .mint-btn span {
           margin-left: 40px;
         }
         
-        .faucet-btn:hover {
+        .mint-btn:hover {
           cursor: pointer;
           color: #ffffff;
         }
